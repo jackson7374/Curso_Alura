@@ -74,18 +74,18 @@ main{
 
 .video {
     background-color:black;
-    width: 560px;
-    height: 351px;
-    padding: 16px;
-    margin: 30px;
-    margin-left: 219px;
+    margin: 0px -12px 20px -12px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 55%;
 }
 
-iframe{
-    width: 92%;
-    height: 89%;
-    padding-left: 25px;
-    padding-top: 14px;
+.video > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 60%;
+    height: 70%;
 }
 
 div p{
