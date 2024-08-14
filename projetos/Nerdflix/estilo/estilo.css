@@ -41,7 +41,7 @@ header > p{
 nav{
     background-color: var(--cor4);
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.493);
-    gap: 8px;
+    gap: 4px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
