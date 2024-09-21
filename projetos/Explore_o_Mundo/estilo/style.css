@@ -4,15 +4,45 @@ body{
     background-color: greenyellow;
 }
 
+section{
+    margin: auto;
+    width: 1000px;
+}
+
 h1{
     text-align: center;
     background-color: green;
+    padding: 4px;
+    font-size: 37px;
+    border-radius: 10px;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+div{
+    position: relative;
+    padding: 20px;
 }
 
 button{
-    margin-bottom: 30px;
+    background-color: rgb(8, 63, 8);
+    font-size: 16px;
+    box-shadow:  1px 1px 20px rgb(9, 197, 9) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: white;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
 }
